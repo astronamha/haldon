@@ -32,7 +32,7 @@ section{padding:40px 0}
 .card h3{font-size:1.1rem;margin-bottom:10px}
 .card p{font-size:.95rem;color:var(--text-muted);margin-bottom:14px}
 .card a{font-size:.9rem;font-weight:600;text-decoration:none}
-.soon{display:inline-block;background:#fef3c7;color:#92400e;font-size:.8rem;font-weight:600;padding:4px 12px;border-radius:999px}
+.soon{display:inline-block;margin-bottom:14px;background:#fef3c7;color:#92400e;font-size:.8rem;font-weight:600;padding:4px 12px;border-radius:999px}
 .note{margin-top:24px;font-size:.9rem;color:var(--text-muted);background:var(--surface);border-left:4px solid var(--accent);padding:14px 18px;border-radius:8px}
 .compliance-box{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:32px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px}
 .compliance-box.two{grid-template-columns:repeat(2,1fr)}
@@ -68,3 +68,4 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:40px
   .footer-grid{grid-template-columns:1fr 1fr}
   .footer-grid>div:first-child,.footer-grid>div:last-child{grid-column:1/-1}
 }
+.after-soon{display:block}
